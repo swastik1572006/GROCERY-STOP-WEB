@@ -1,0 +1,124 @@
+.gradient-background {
+  background: linear-gradient(300deg,  #00bfff, teal, lightblue);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.btn-primary {
+  color: black;
+  background-color: white;
+  border: white;
+  
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: rgb(162, 154, 154);
+}
+
+.btn-outline-secondary {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-secondary:hover {
+  color: black;
+  background-color: white;
+}
+
+#testimonial  {
+  background-color:rgb(248, 249, 250, 1) ;
+  padding: 48px;
+}
+
+.testimonial2 {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 12px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.testimonial2 img {
+  width: 150px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+
+.testimonial2 p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  color: gray;
+  margin-top: 10px
+}
+
+.testimonial3 {
+  justify-content: center;
+}
+
+.row {
+  padding: 0px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.btn-outline-primary {
+  color: black;
+  border-color: black;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-primary {
+  color: white;
+  background-color: black;
+}
+
+.btn-primary:hover {
+  color: white;
+}
+
+.border-primary {
+  border-color: black !important;
+}
+
+.text-bg-primary {
+  background-color: black !important;
+  color: white;
+}
+
+#pricing .container {
+  margin-top: 30px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
